@@ -5,7 +5,7 @@ Msat  = 860e3
 Aex   = 13e-10
 alpha = 1e-13
 
-B=200.0e-9
+B:=200.0e-9
 
 c := (ellipse(170e-9, 470e-9).transl(B,0, 0))
 d := (ellipse(170e-9, 470e-9).transl(-B,0, 0)).add(c)
